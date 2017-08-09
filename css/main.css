@@ -8,6 +8,25 @@
   }
 }
 
+body.standard {
+  background-image: url('/images/shoot-for-the-stars.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+} p.standard {
+  /* Obsolete, not in use */
+  font-size: 15px;
+}
+
+.sunset-one {
+  background-image: url('/images/sunset-one.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: 500px;
+}
+
 .fadeIn {
   opacity: 1;
   animation-name: phadeIn;
