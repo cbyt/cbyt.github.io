@@ -11,7 +11,7 @@ var links = [
   
   {
     name: 'Subscribe',
-    url: 'https://www.youtube.com/channel/UCMm79jobVpVvghnA9voTtag'
+    url: 'https://www.youtube.com/channel/UCMm79jobVpVvghnA9voTtag" target="_blank'
   }
 ];
 
