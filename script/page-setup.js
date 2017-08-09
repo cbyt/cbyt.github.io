@@ -16,7 +16,7 @@ var links = [
   
   {
     name: 'Random Video',
-    url: findRandomVideo()
+    url: String(findRandomVideo() + '" target="_blank"')
   }
 ];
 
