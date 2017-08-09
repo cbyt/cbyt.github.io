@@ -12,6 +12,11 @@ var links = [
   {
     name: 'Subscribe',
     url: 'https://www.youtube.com/channel/UCMm79jobVpVvghnA9voTtag" target="_blank'
+  },
+  
+  {
+    name: 'Random Video',
+    url: findRandomVideo()
   }
 ];
 
@@ -30,4 +35,12 @@ function fillInSubs () {
   for (i = 0; i < document.getElementsByClassName('sub-count').length; i++) {
     document.getElementsByClassName('sub-count')[i].innerHTML = subCount;
   }
+}
+
+function findRandomVideo () {
+  var videos = [
+    'https://www.youtube.com/watch?v=gF90fuaX_NY'
+  ];
+  
+  return videos[Math.floor(Math.random() * (((videos.length - 1) - 0) + 1))];
 }
