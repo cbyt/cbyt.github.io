@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
     <title></title>
@@ -9,6 +8,8 @@
       function printName ($name) 
         echo $name;
       }
+      
+      printName('wow');
     ?>
   </p>
 </body>
