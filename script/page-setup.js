@@ -35,7 +35,7 @@ function createNavigation () {
 
 function fillInSubs () {
   var i = 0;
-  var subCount = 63;
+  var subCount = 37;
   
   for (i = 0; i < document.getElementsByClassName('sub-count').length; i++) {
     document.getElementsByClassName('sub-count')[i].innerHTML = subCount;
