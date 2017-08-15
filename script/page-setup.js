@@ -12,7 +12,7 @@ var links = [
   {
     name: 'Music',
     url: '/docs/music/'
-  }
+  },
   
   {
     name: 'Subscribe',
