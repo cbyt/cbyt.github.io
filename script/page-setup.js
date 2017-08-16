@@ -1,3 +1,7 @@
+var videos = [
+  'https://www.youtube.com/watch?v=gF90fuaX_NY'
+];
+
 document.body.onload = function () {
   createNavigation();
   fillInSubs();
@@ -36,16 +40,17 @@ function createNavigation () {
 function fillInSubs () {
   var i = 0;
   var subCount = 37;
+  var viewCount = 85;
   
   for (i = 0; i < document.getElementsByClassName('sub-count').length; i++) {
     document.getElementsByClassName('sub-count')[i].innerHTML = subCount;
+  } for (i = 0; i < document.getElementsByClassName('view-count').length; i++) {
+    document.getElementsByClassName('view-count')[i].innerHTML = viewCount;
+  } for (i = 0; i < document.getElementsByClassName('upload-count').length; i++) {
+    document.getElementsByClassName('upload-count')[i].innerHTML = videos.length;
   }
 }
 
 function findRandomVideo () {
-  var videos = [
-    'https://www.youtube.com/watch?v=gF90fuaX_NY'
-  ];
-  
   return videos[Math.floor(Math.random() * (((videos.length - 1) - 0) + 1))];
 }
