@@ -1,11 +1,19 @@
-var videos = [
-  'https://www.youtube.com/watch?v=gF90fuaX_NY'
-];
-
 document.body.onload = function () {
+  createFooter();
   createNavigation();
   fillInSubs();
 };
+
+function createFooter () {
+  var footerSRC = '';
+  
+  footerSRC = '<div class="w3-container w3-black w3-large"><div class="w3-row"><div class="w3-col m12 l6 w3-center"><p>Charles Brewer</p></div><div class="w3-col m12 l6 w3-center"><a href="https://www.youtube.com/channel/UCMm79jobVpVvghnA9voTtag" style="text-decoration: none"><span style="background-color: #cc181e; padding: 5px 5px 5px 5px; border-radius: 5px 0px 0px 5px">Subscribe</span><span class="sub-count w3-light-gray" style="padding: 5px; border-radius: 0px 5px 5px 0px">null</span><br/><br/></a></div></div></div>';
+  document.getElementById('footer').innerHTML = footerSRC;
+}
+
+var videos = [
+  'https://www.youtube.com/watch?v=gF90fuaX_NY'
+];
 
 var links = [
   {
