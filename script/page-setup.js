@@ -6,8 +6,8 @@ document.body.onload = function () {
 
 function createFooter () {
   var footerSRC = '';
-  
-  footerSRC = '<div class="w3-container w3-black w3-large"><div class="w3-row"><div class="w3-col m12 l6 w3-center"><p>Charles Brewer</p></div><div class="w3-col m12 l6 w3-center"><a href="https://www.youtube.com/channel/UCMm79jobVpVvghnA9voTtag" style="text-decoration: none"><span style="background-color: #cc181e; padding: 5px 5px 5px 5px; border-radius: 5px 0px 0px 5px">Subscribe</span><span class="sub-count w3-light-gray" style="padding: 5px; border-radius: 0px 5px 5px 0px">null</span><br/><br/></a></div></div></div>';
+
+  footerSRC = '<div class="w3-container w3-black w3-large"><div class="w3-row"><div class="w3-col m12 l12 w3-center"><p>Charles Brewer</p></div><div class="w3-col m12 l12 w3-center"><a href="https://www.youtube.com/channel/UCMm79jobVpVvghnA9voTtag" style="text-decoration: none"><span style="background-color: #cc181e; padding: 5px 5px 5px 5px; border-radius: 5px 0px 0px 5px">Subscribe</span><span class="sub-count w3-light-gray" style="padding: 5px; border-radius: 0px 5px 5px 0px">null</span><br/><br/></a></div></div></div>';
   document.getElementById('footer').innerHTML = footerSRC;
 }
 
